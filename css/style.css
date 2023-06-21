@@ -25,7 +25,9 @@ main .container {
 .row {
   margin: auto -10px;
 }
-header img {
+header img,
+.header-donna img,
+.header-uomini img {
   max-width: 150px;
 }
 .img-card > img {
@@ -143,7 +145,7 @@ header {
 .sostenibily {
   background-color: #008000;
 }
-main .fa-heart {
+main .img-card > .fa-heart {
   position: absolute;
   right: -10px;
   top: 15px;
@@ -176,7 +178,30 @@ footer i {
 /* 
       DEBUG
 */
-/* .debug {
+.header-donna {
+  background-color: rgb(238, 71, 45);
+  color: white;
+  /* padding: 5px 0px; */
+  box-shadow: 0px 0px 8px 0.5px #1a1a1a;
+  position: sticky;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 11;
+}
+.header-uomini {
+  background-color: rgb(40, 52, 75);
+  color: white;
+  /* padding: 5px 0px; */
+  box-shadow: 0px 0px 8px 0.5px #1a1a1a;
+  position: sticky;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 11;
+}
+
+.debug {
   border: 2px dashed black;
 }
 .debug .container {
@@ -203,4 +228,4 @@ footer i {
 .debug .img-card {
   background-color: blue;
   border: 2px dashed black;
-} */
+}
