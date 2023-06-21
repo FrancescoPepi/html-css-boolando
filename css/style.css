@@ -6,13 +6,73 @@
   padding: 0;
   margin: 0;
 }
+header {
+  background-color: #ff6900;
+}
 .container {
   max-width: 1180px;
+  margin: 10px auto;
+}
+
+img {
+  max-width: 150px;
+}
+.img-card > img {
+  width: 100%;
+}
+
+/* 
+      RIUTILIZZABILI
+*/
+.flex {
+  display: flex;
+}
+.between {
+  justify-content: space-between;
+}
+.align-items {
+  align-items: center;
+}
+.card {
+  width: calc(100% / 3);
+  margin: 10px auto;
+}
+.img-card {
+  width: 100%;
+  height: 450px;
+}
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 /* 
       DEBUG
 */
 .debug {
+  border: 2px dashed black;
+}
+.debug .container {
+  background-color: rgba(0, 255, 255, 0.509);
+  border: 2px dashed black;
+}
+.debug img {
+  background-color: azure;
+  border: 2px dashed black;
+}
+.debug .profile {
+  background-color: azure;
+  border: 2px dashed black;
+}
+.debug .gens {
+  background-color: azure;
+  border: 2px dashed black;
+}
+.debug .card {
+  background-color: blanchedalmond;
+  border: 2px dashed black;
+}
+
+.debug .img-card {
+  background-color: blue;
   border: 2px dashed black;
 }
