@@ -178,10 +178,13 @@ footer i {
 /* 
       DEBUG
 */
+/* extra */
+.opacity {
+  opacity: 0;
+}
 .header-donna {
   background-color: rgb(238, 71, 45);
   color: white;
-  /* padding: 5px 0px; */
   box-shadow: 0px 0px 8px 0.5px #1a1a1a;
   position: sticky;
   left: 0;
@@ -192,7 +195,6 @@ footer i {
 .header-uomini {
   background-color: rgb(40, 52, 75);
   color: white;
-  /* padding: 5px 0px; */
   box-shadow: 0px 0px 8px 0.5px #1a1a1a;
   position: sticky;
   left: 0;
@@ -200,7 +202,7 @@ footer i {
   right: 0;
   z-index: 11;
 }
-
+/* fine extra */
 .debug {
   border: 2px dashed black;
 }
