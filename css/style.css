@@ -8,10 +8,13 @@
 }
 body {
   margin-top: 80px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
 }
 
 .container {
-  max-width: 1180px;
+  max-width: 1400px;
   margin: 10px auto;
 }
 
@@ -78,7 +81,7 @@ header {
 }
 .img-card {
   width: 100%;
-  height: 500px;
+  height: 650px;
 }
 
 .img-card:hover .img-1 {
@@ -90,6 +93,16 @@ header {
   top: 0px;
   left: 0px;
   z-index: -1;
+}
+.brand,
+.price {
+  font-weight: normal;
+}
+.price {
+  text-decoration: line-through;
+}
+.discount-price {
+  color: red;
 }
 /* 
     FOOTER
