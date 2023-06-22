@@ -32,7 +32,7 @@ header img,
 }
 .img-card > img {
   width: 100%;
-  height: 100%;
+  display: block;
 }
 
 /* 
@@ -82,8 +82,6 @@ header {
   margin: 10px;
 }
 .img-card {
-  width: 100%;
-  height: 650px;
   margin-bottom: 0.2rem;
   cursor: pointer;
 }
@@ -182,6 +180,7 @@ footer i {
 .opacity {
   opacity: 0;
 }
+
 .header-donna {
   background-color: rgb(238, 71, 45);
   color: white;
